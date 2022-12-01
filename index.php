@@ -5,6 +5,7 @@
             <h1>Hello, my name is Ryan Bills</h1>
             <h2>Thank you for your interest!</h2>
             <h2>Please feel free to contact me!</h2>
+            <br/><br/><br/>
             <h2 style="background-color: #E6EBE0; color: #333333; border: #3581B8 solid 10px; border-radius: 40px; padding: 20px;">
                 Bachelor of Science in Information Systems (BS-IS)<br /><br />
                 <img src="assets/atu.png" height="90px" />

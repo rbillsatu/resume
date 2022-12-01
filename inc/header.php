@@ -29,16 +29,12 @@
                 <h4>Ryan Bills</h4>
             </div>
             
-            
-
             <!-- Page Links: -->
             <div class="links" id="links">
-                    <!-- <i class="fa-solid fa-hand-point-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
                     <a class="nav-link" href="/resume/index.php"> Welcome </a>
                     <a class="nav-link" href="/resume/about.php"> About Me </a>
                     <a class="nav-link" href="/resume/military.php"> Military Career </a>
                     <a class="nav-link" href="/resume/projects.php"> Projects </a>
-                    
             </div>
 
             <!-- Contact: -->
