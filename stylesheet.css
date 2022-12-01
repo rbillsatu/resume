@@ -1,0 +1,300 @@
+/* HEADER ELEMENTS: */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    background-color: #3581B8;
+    color: #E6EBE0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.links-containter li {
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    color: inherit;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.nav-item {
+    background-color: #333333;
+    color: #E6EBE0;
+    border: #E6EBE0 solid 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+}
+.nav-item h4 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-item a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+}
+
+.navname {
+    text-decoration: none;
+    color: #E6EBE0;
+}
+.links {
+    background-color: #333333;
+    color: #E6EBE0;
+    border: #E6EBE0 solid 5px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #E6EBE0;
+    padding-right: 20px;
+}
+.nav-link:hover {
+    color: #3581B8;
+}
+.contact {
+    text-decoration: none;
+    color: #E6EBE0;
+}
+.contact:hover {
+    color: #3581B8;
+}
+/* END HEADER ELEMENTS */
+
+
+
+/* PAGE ELEMENTS: */
+body {
+    background-color: #444444;
+    text-decoration: none !important;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E6EBE0;
+
+}
+a {
+    text-decoration: none;
+    color: #E6EBE0;
+}
+hr {
+    border: 3px solid #3581B8;
+    border-radius: 3px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+div {
+    margin: 10px;
+}
+.page-title{
+    color: #333333;
+    background-color: #E6EBE0;
+    border: #3581B8 solid 10px;
+    border-radius: 15px;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+}
+.content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.welcome {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pic {
+    border-radius: 40px;
+    border: #3581B8 solid 10px;
+    margin: 20px;
+    
+}
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+/* END PAGE ELEMENTS */
+
+/* MILITARY PAGE: */
+.history {
+    margin-bottom: 30px;
+}
+.history li {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+/* PROJECTS PAGE: */
+
+.project-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    border: #3581B8 solid 3px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+/* .project {
+    margin: 20px;
+    padding: 20px;
+} */
+.project-code {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.code-languages {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    border: #3581B8 solid 3px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.coding-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 500px;
+    border: #3581B8 solid 3px;
+    border-radius: 15px;
+    margin: 20px;
+    
+}
+.code {
+    margin: 20px;
+}
+/* END PROJECTS PAGE */
+
+
+
+
+
+/* CONTACT FORM: */
+.contact-page {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.contact-form {
+    width: auto;
+}
+.contact-section {
+    margin-bottom: 10px;
+}
+.contact-entry {
+    align-content: center;
+    width: 400px;
+}
+.contact-message {
+    width: 400px;
+    height: 100px;
+}
+.invalid-entry {
+    color: #E54F6D;
+}
+.thankyou {
+    text-align: center;
+}
+.contact-btn {
+    background-color: #3581B8;
+    color: #E6EBE0;
+    width: 400px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+}
+.contact-btn:hover {
+    background-color: #4ea83a;
+}
+/* END CONTACT FORM */
+
+/* NASA APOD: */
+.nasa-btn {
+    background-color: #3581B8;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50px;
+}
+.apod {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.apod-contents {
+    text-align: center;
+    
+}
+/* END NASA APOD */
+
+
+
+/* FOOTER ELEMENTS: */
+.footer {
+    /* position: fixed; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #E6EBE0;
+    color: #333333;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #3581B8 solid 10px;
+}
+.footer-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* END FOOTER ELEMENTS */
+
+
+

@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+}
+
+body{
+    color: white;
+}
+
+.choose{
+    display: flex;
+    justify-content: space-around;
+}
+
+.result{
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 250px;
+    height: 100px;
+    padding: 50px;
+    margin-left: 100px;
+    border-radius: 25px;    
+}
+
+.button{
+    font-size: 30px;
+    background-color: white;
+    border-color: white;
+    border-radius: 5px;
+    width: 200px;
+    color: red;   
+}
+
+.buttonarea{
+    margin-left: 175px;
+}

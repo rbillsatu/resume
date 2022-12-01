@@ -1,0 +1,11 @@
+/*  */
+.lookup {
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
