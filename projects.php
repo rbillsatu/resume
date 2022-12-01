@@ -154,9 +154,9 @@
             <div>
                 <h2>Database Experience:</h2>
                 <div class="coding-list">
-                    <div class="code"><img src="assets/firebase.png" height="75px"></div>
+                    <div class="code"><img src="assets/firebase.png" height="90px"></div>
                     <div class="code"><img src="assets/oracle.png" height="50px"></div>
-                    <div class="code"><img src="assets/mysql.png" height="75px"></div>
+                    <div class="code"><img src="assets/mysql.png" height="80px"></div>
                 </div>
             </div>
         </section> 
